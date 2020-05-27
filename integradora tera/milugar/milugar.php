@@ -1,0 +1,239 @@
+<?php 
+$json='
+{
+    "IdTipoInmueble":2,
+    "IdTipoOperacion":2,
+    "IdLocalidad":"14",
+    "Calle":"",
+    "titulo":"A estrenar, con espectacular vista al lago! Edificio Lago Mayor",
+    "descripcion":"Excelente apartamento en Carrasco a la venta y en alquiler!
+ Living comedor, cocina definida, terraza abierta, terraza de servicio y gran azotea con parrillero y baño.
+ Cuenta con 2 dormitorios y 2 baños, 1 en suite. Garage.
+ El edificio cuenta con piscina, gimnasio, barbacoa, lavadero, servicio de portería, caminero rodeando el lago, cancha de tennis, zona de juegos para niños y muelle con espacio de guardado para deportes acuaticos.
+ Super modernos con una increíedble vista al lago.
+ Gran oportunidad! Consulte.",
+    "IdUnidadPrecio":"USD",
+    "Precio":"380000",
+    "IdUnidadGastosComunes":"$",
+    "GastosComunesMonto":"8158",
+    "SuperficieTotal":"180",
+    "SuperficieConstruida":"100",
+    "IdDormitorios":"2",
+    "IdBanios":"2",
+    "mapa":"https://tera.uy/Mapa?loc=-34.849769379209114, -56.023765852050815",
+    "garage":1,
+    "latitud":"-34.849769379209114",
+    "longitud":" -56.023765852050815",
+    "estado":1,
+    "orientacion":2,
+    "amueblado":true,
+    "publicado":true,
+    "aire_acondicionado":false,
+    "mascotas":false,
+    "azotea":false,
+    "jardin":false,
+    "vivienda_social":false,
+    "barrio_privado":false,
+    "Imagenes360":[
+ 
+    ],
+    "Imagenes":[
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/9eed6f146badae06c7c026cb5f3aca8d.jpg",
+          "nombre":"1"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/d9049cb19732725e97dd3dc42e4acbb4.jpg",
+          "nombre":"2"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/2d50eae4f440dfd1d93b5fee0c0cdd53.jpg",
+          "nombre":"3"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/30fad9adb5678a46034d89ad85bcbc69.jpg",
+          "nombre":"4"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/7549a1ab875ee1ae672776545830772a.jpg",
+          "nombre":"5"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/772f5cb58a3e2113311335d42c07dd5d.jpg",
+          "nombre":"6"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/44ff72fa2cbd523fb954a98e57eba16e.jpg",
+          "nombre":"7"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/181e2eebee73b916a40c36cd29c2c8f8.jpg",
+          "nombre":"8"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/dd0ad235c15a7cf7ebd5fbeb3758ec69.jpg",
+          "nombre":"9"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/36e2006688d320be3b85cad575b8bacd.jpg",
+          "nombre":"10"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/02495758c3893dca5ecbaa84e9caec37.jpg",
+          "nombre":"11"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/b64045e1d98b28bedcb3abcbdb8e63e9.jpg",
+          "nombre":"12"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/2ea2d89377ac0eca2b1b40542ffe77d5.jpg",
+          "nombre":"13"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/2850e03ea2f5827a8e728afb12629f08.jpg",
+          "nombre":"14"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/5c32cc0c3c7ac39169cfe3ad6412df6d.jpg",
+          "nombre":"15"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/0/800/0/0/0/50a02b8393c640fc096497296e7f30ce.jpg",
+          "nombre":"16"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/4b2fbee5f75dbed7a270ec5113867651.jpg",
+          "nombre":"17"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/e9566d9868df298038d71c040f10a90b.jpg",
+          "nombre":"18"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/177a1fbe25751b006ce45a3278a201e5.jpg",
+          "nombre":"19"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/90e89bbf8146027520637cf81a92147f.jpg",
+          "nombre":"20"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/e2209b8c6e7624526a6713dc0d6d2224.jpg",
+          "nombre":"21"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/bd0935fd414e043c0f5b690ff7b86111.jpg",
+          "nombre":"22"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/fbf8335478e10f112124ff5c9d4ce192.jpg",
+          "nombre":"23"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/ffce126e26324963a9ff62eccd539e04.jpg",
+          "nombre":"24"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/c5f5c470b558e7da17111d87df105af9.jpg",
+          "nombre":"25"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/fdb13c40d658c19ae72bd02bdeab6f9a.jpg",
+          "nombre":"26"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/908bf0395293e1206bd0977c46d8ee2e.jpg",
+          "nombre":"27"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/fa26206b6178b8a0c4e3558c8aba6e09.jpg",
+          "nombre":"28"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/2d1e7f5c502d13126162842551a7f2b7.jpg",
+          "nombre":"29"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/a3974fa1b48522a6e271ca3e204e4c51.jpg",
+          "nombre":"30"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/20c1a8282e17bccf80334f4527004fc3.jpg",
+          "nombre":"31"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/e956a03259e2a586f652847bc0e2d676.jpg",
+          "nombre":"32"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/b07464e4fc46183bf0eab1163efee95d.jpg",
+          "nombre":"33"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/5eb3b494e161327c1c93b58a81a2e2b8.jpg",
+          "nombre":"34"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/225a7d6a716c2fb1c8d29bd1f84d073e.jpg",
+          "nombre":"35"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/d89536dc7fcadf7fb1545fbc681e0c2e.jpg",
+          "nombre":"36"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/7ad3d05b81c915ecbb28cd4de511b163.jpg",
+          "nombre":"37"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/25e52c1a144eb9e56e4e1c4c047fa28f.jpg",
+          "nombre":"38"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/5e9d496c0e29f33691e60ba948096faa.jpg",
+          "nombre":"39"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/d60ffa245da7dcf225dcff8561cee97f.jpg",
+          "nombre":"40"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/1a49e93b28e55d75323a5ed1ed563b58.jpg",
+          "nombre":"41"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/87ab21ef7067c52093c85284ea843898.jpg",
+          "nombre":"42"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/c8b6dbebfda53a3895a6876af68b652b.jpg",
+          "nombre":"43"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/b2a58ee7a0361c98c455241ed03f3f9e.jpg",
+          "nombre":"44"
+       },
+       {
+          "foto":"https://foto.tera.uy/39/6/800/0/0/0/e19ee428fafca05981dc9a77d64d40cb.jpg",
+          "nombre":"45"
+       }
+    ]
+ }'; 
+ 
+ $url='https://milugar.com.uy/api/propiedades/crear_propiedad.php';
+$tokenMilugar='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoiMzMwIiwidXN1YXJpbyI6Im1hcmlvQHRlcmEudXkiLCJwZXJtaXNvcyI6IjMifX0.J1ErRQHdAZldV_N8m-ueIZ1uDSAM7EPabY-c3HBA22w';
+
+  $ch = curl_init($url);                                                                      
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");            
+  //curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);                                                         
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $json);                                                                  
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);                                                                      
+  curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
+      'Content-Type: application/json',
+      'Authorization: Bearer '.$tokenMilugar,                                                                                
+      'Content-Length: ' . strlen($json))                                                                       
+  );                                                                                                                   
+  $respuesta = curl_exec($ch);
+  curl_close($ch);
+echo $respuesta;  

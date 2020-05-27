@@ -1,0 +1,18 @@
+@media only screen and (max-width : 767px) {
+#search .advanced .select-selected {
+	font-size: 13px;
+}
+#search .advanced .select-selected:after {
+	font-size: 14px;
+	top: 10px;
+	right: 5px;
+	width: 14px;
+	height: 14px;
+}
+#search .advanced .select-items {
+	font-size: 14px;
+}
+#search .advanced .select-items div{
+	padding: 5px 10px;
+}
+}

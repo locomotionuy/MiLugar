@@ -1,0 +1,17 @@
+@media only screen and (max-width : 767px) {
+#contacto .titulo {
+	padding: 10px 0 22px 0;
+	text-align: center;
+}
+#contacto .columna {
+	width: 100%;
+	padding: 0;
+}
+#contacto .foto {
+	width: 100%;
+	height: auto;
+}
+#contacto input[type=submit] {
+	margin: 10px 0 30px 0;
+}
+}

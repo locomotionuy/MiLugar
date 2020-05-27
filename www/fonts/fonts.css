@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Ubuntu Bold';
+	src: url('Ubuntu-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Ubuntu Light';
+	src: url('Ubuntu-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Ubuntu Medium';
+	src: url('Ubuntu-Medium.ttf') format('truetype');
+}
+/*@font-face {
+	font-family: 'OpenSans ExtraBold';
+	src: url('OpenSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OpenSans Bold';
+	src: url('OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OpenSans Light';
+	src: url('OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OpenSans Regular';
+	src: url('OpenSans-Regular.ttf') format('truetype');
+}*/

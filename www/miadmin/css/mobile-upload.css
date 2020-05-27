@@ -1,0 +1,231 @@
+@media only screen and (max-width : 1100px) {
+.body {
+	padding: 0;	
+}
+#upload {
+	padding: 10px 0 0 0;
+}
+#upload input[type=submit] {
+	padding: 30px 0 30px 0;
+	margin: 0;
+	font-size: 28px;
+	float: left;
+}
+#upload fieldset {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding: 0 10px 13px 10px;
+}
+#upload fieldset.set_upload {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding: 0 0 13px 10px;
+}
+#upload label {
+	width: 100%;
+	padding: 0 0 5px 0;
+	line-height: 20px;
+	padding: 0 10px 3px 0;
+}
+#upload label i {
+	float: left;
+	width: 20px;
+	margin: 1px 5px 0 5px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	color: #666;
+	display: none;
+}
+#upload input[type=text], #upload select, #upload textarea, #upload input[type=password]{
+	padding: 10px;
+	width: 100%;
+}
+#upload .wrap_ubicacion{
+	width: 100%;
+}
+#upload .input15{
+	width: 23% !important;
+	margin: 0 1% 0 0;
+	float: left;
+}
+#upload .input50{
+	width: 76% !important;
+	float: left;
+}
+#upload .paso {
+	float: left;
+	width: 100%;
+	padding: 10px 0 0 0;
+}
+#upload form{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+#upload form .campo_numeros {
+	float: none;
+	width: 140px;
+	margin: 5px auto 0 auto;
+}
+#upload form .input_numero {
+	float: left;
+	width: 70px;
+	text-align: center;
+}
+#upload .image_upload .input_file {
+	position: relative;
+	float: no;
+	width: 100%;
+	margin: 10px 0 0 0;
+	cursor: pointer;
+	overflow: hidden;
+	display: inline-block;
+}
+#upload .fotos_subidas {
+	padding: 10px 0 10px 10px;
+	margin: 0;
+}
+#upload .fotos_subidas div{
+	width: 48%;
+	height: 120px;
+	margin: 0 2% 20px 0;
+}
+#upload .foto a{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	text-align: center;
+	padding: 10px 0 0 0;
+	background-color: #000;
+	color: #FFF;
+}
+#upload .inputfile input[type=file] {
+	font-size: 35px;
+	position: absolute;
+	left: -80%;
+	top: 0;
+	opacity: 0;
+	z-index: 1000;
+	cursor: pointer;
+}
+#upload .checkbox {
+    display: block;
+    position: relative;
+	float: left;
+	width: 100%;
+	height: 40px;
+}
+#upload .checkbox input[type="checkbox"] {
+    position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	width: 70px;
+	height: 35px;
+}
+#upload .checkmark {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -35px;
+	height: 35px;
+	width: 70px;
+	border-radius: 20px;
+}
+#upload .tabs {
+	margin: -10px 0 0 0;
+}
+#upload .tabs li {
+	float: left;
+	width: 33.333%;
+	height: 80px;
+	border-left: solid 1px #cbcbcb;
+	border-bottom: solid 10px #cbcbcb;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "OpenSans Regular";
+	text-transform: uppercase;
+	color: #333;
+	cursor: pointer;
+}
+#upload .tabs li.selected {
+	font-family: "OpenSans Bold";
+}
+#upload .tabs li.selected, #upload .tabs li.selected:hover {
+	border-bottom-color: #006cff
+}
+#upload .tabs li span {
+	margin-top: 3px;
+	font-size: 11px;
+	font-family: "OpenSans Regular";
+	line-height: 14px;
+}
+#upload .codigo{
+	float: left;
+	width: 100%;
+	padding: 0 10px 10px 10px;
+}
+#upload .texto_insercion{
+	float: left;
+	width: 100%;
+	padding: 0 0 10px 0;
+	font-size: 12px;
+	color: #0080FF;
+}
+	
+#upload li.foto_subida{
+	list-style: none;
+	border: solid 3px #f1f1f1;
+	float: left;
+	width: 46vw;
+	height: 23vw;
+	margin: 0 1.3% 20px 0;
+}/*
+#upload li.foto_subida:hover{
+	cursor: move;
+	border: solid 5px #40A3E1;
+}
+#upload li.foto_subida :nth-child(8n+0){
+	margin: 0 0 20px 0;
+}
+#upload li.foto_subida a{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	text-align: center;
+	padding: 10px 0 0 0;
+	background-color: #000;
+	color: #FFF;
+}*/
+
+/* tomi */
+#info_mapa{
+	top: 34px;
+	right: 25px;
+}
+#div_info_mapa{
+	/*position:absolute;
+	display:none;
+	top:70px;
+	border: 1px solid #C0C0C0;
+	background-color: #F1F1F1;
+	border-radius: 5px;
+	padding:10px;*/
+	z-index: 2;
+	width: 100%;
+	right: 0px;
+	
+}	
+	
+}

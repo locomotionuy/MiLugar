@@ -1,0 +1,237 @@
+@media only screen and (max-width : 1100px) {
+.content, .content .content{
+	padding: 0;
+}
+.content .content{
+	width: 100%;
+}
+.body {
+	padding: 0;
+}
+.mobile {
+	display: block;
+}
+.desktop {
+	display: none;
+}
+.titulo-secciones {
+	padding: 10px;
+	margin: 0;
+}
+.confirmation-window{
+	width: 300px;
+	height: 320px;
+	margin-top: -250px;
+	margin-left: -150px;
+}
+.confirmation-window .evento{
+	padding: 35px 0 30px 0;
+	font-size: 18px;
+}
+.confirmation-window .evento i{
+	font-size: 36px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	margin-right: 10px;
+}
+.confirmation-window a{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	margin: 0 0 20px 0;
+}
+.confirmation-window a.no{
+	border: 1px solid #268C59;
+}
+#header {
+	height: auto;
+}
+#header .content, #footer .content {
+	padding: 0;
+}
+#header .logo {
+	width: 70%;
+	padding: 10px;
+}
+#header .logo img{
+	height: 35px;
+}
+#header .user {
+	display: none;
+}
+#header .menu-button {
+	float: right;
+	display: block;
+	padding: 18px;
+	color: #53585B;
+	font-size: 20px;
+}
+#menu {
+	float: left;
+	width: 100%;
+	padding: 0;
+	display: none;
+	border-radius: 0;
+}
+#menu li{
+	padding: 0;
+	width: 100%;	
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3D3A38;
+}
+#menu li a{
+	padding: 10px;
+}
+#menu li ul span::before{
+	background-color: #3D3A38;
+}
+#menu li ul span::after{
+	background-color: #3D3A38;
+}
+#menu li ul{
+	float: left;
+	display: block;
+	top: 0;
+	position: relative;
+	width: 100%;
+	text-align: left;
+	padding: 0;
+}
+#menu li ul li{
+	float: left;
+	width: 100%;
+	background-color: #3D3A38;
+}
+#menu li ul li a{
+	color: #CCC;
+	padding: 5px 10px;
+	text-decoration: none;
+	width: 100%;
+	font-family: "OpenSans Regular";
+	float: left;
+	width: 100%;
+}
+#menu i{
+	float: left;
+	margin: 0 10px 0 0;
+	display: none;
+}
+#menu .titulo, #menu .cliente {
+	width: 60%;	
+	padding: 0;
+	line-height: 18px;
+}
+#menu .realstatelogo{
+	float: right;
+	width: 100px;
+	height: 30px;
+	margin: 0;
+	background-size: auto 100%;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#menu a{
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 20px;
+	border: none;
+	text-transform: uppercase;
+	font-family: "OpenSans Bold";
+}
+#menu a.selected::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 3px;
+	background-color: transparent;
+}
+#home {
+	float: left;
+	width: 100%;
+}
+#home .tile-large, #home .tile{
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+#home .tile-large{
+	margin: 0 0 20px 0;
+	padding-bottom: 25%;
+}
+#home .tile-large, #home .tile{
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding: 10px;
+}
+#home .tile-large{
+	margin: 0 0 10px 0;
+	background-color: #393;
+	border-color: #393;
+	padding-bottom: 25%;
+	color: #fff;
+}
+#home .tile-large .info{
+	font-size: 12px;
+	width: 70%;
+}
+#home .info{
+	font-size: 12px;
+	width: 70%;
+	line-height: 12px;
+}
+#home .tile{
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding-bottom: 25%;
+	font-size: 18px;
+}
+#home .titulo{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: "OpenSans Bold";
+}
+#home .info{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	text-align:left;
+	font-size: 12px;
+}
+#home i{
+	position: absolute;
+	top: 50%;
+	left: auto;
+	right: 20px;
+	font-size: 50px;
+	margin-top: -25px;
+	margin-left: auto;
+}
+#home .tile:last-child{
+	margin: 0 0 10px 0;
+}
+#footer {
+	padding: 20px;
+}
+#footer .logo{
+	padding: 0;
+	width: 50%;
+	text-align: left;
+}
+#footer .version{
+	padding: 0;
+	width: 50%;
+	text-align: right;
+}
+}

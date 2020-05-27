@@ -1,0 +1,465 @@
+#file {
+	float: left;
+	width: 100%;
+	padding: 0 0 70px 0;
+}
+#file .content{
+	padding: 0 20px 0 20px;
+}
+#file .file-info {
+	float: right;
+	width: 27%;
+	background-color: #f3f4f5;
+	padding: 19px;
+	text-align: left;
+	height: 550px;
+	position: relative;
+}
+#file .col {
+	float: left;
+	width: 100%;
+}
+#file .file-info-title {
+	float: left;
+	width: 100%;
+	font-size: 21px;
+	line-height: 25px;
+	font-family: "Ubuntu Light";
+	color: #5d5e63;
+	padding: 0 0 10px 0;
+}
+#file .file-info-precio {
+	float: left;
+	width: 100%;
+	font-size: 36px;
+	line-height: 36px;
+	font-family: "Ubuntu Bold";
+	color: #5d5e63;
+	padding: 0 0 10px 0;
+}
+#file .file-cracteristicas {
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "Ubuntu Bold";
+	color: #5d5e63;
+	padding: 0 0 6px 0;
+}
+#file .file-gallery {
+	float: left;
+	width: 73%;
+	background-color: var(--bg_color_1);
+}
+#file .youtube {
+	float: none;
+	width: 100%;
+	height: auto;
+	max-width: 720px;
+	min-height: 480px;
+}
+:root {
+	--btn_h: 46px; 
+	--brd_c: solid 5px #d3dae1;
+	--btn_p: 16px;
+	--btn_text: 18px;
+}
+#file #copetes {
+	width: 100%;
+	float: left;
+	text-transform: uppercase;
+	color: #e8e8e8;
+	font-family: "Ubuntu Light";
+	font-size: 18px;
+	line-height: 18px;
+}
+#file #copetes .copete_title{
+	width: 27%;
+	float: left;
+	height: var(--btn_h);
+	text-align: right;
+	text-transform: uppercase;
+	padding: var(--btn_p) 30px 0 0;
+	text-align: right;
+}
+#file #copetes .btn_fotos360{
+	width: auto;
+	min-width: 130px;
+	float: left;
+	height: 56px;
+	border-bottom: var(--brd_c);
+	padding: var(--btn_p) 50px 0 50px;
+	text-align: center;
+}
+#file #copetes .btn_fotos{
+	width: auto;
+	min-width: 150px;
+	float: left;
+	height: 56px;
+	border-bottom: var(--brd_c);
+	padding: var(--btn_p) 50px 0 50px;
+	text-align: center;
+}
+#file #copetes .favorite{
+	position: relative;
+	top: 0;
+	right: 0;
+	width: auto;
+	float: right;
+	height: 56px;
+	border-bottom: var(--brd_c);
+	padding: 14px;
+	font-size: 24px;
+}
+#file #copetes .saved{
+	border-color: #f40606;
+	color: #f40606;
+}
+#file #copetes .selected{
+	font-family: "Ubuntu Medium";
+}
+#file #copetes .brd_selected{
+	background-color: rgba(0,0,0,0.05);
+	border-color: #f40606
+}
+#file #copetes .btn{
+	cursor: pointer;
+	color: #5d5e63;
+	font-family: "Ubuntu Light";
+}
+#file #copetes .btn:hover, #file #copetes .favorite:hover{
+	border-color: #f40606;
+	background-color: rgba(0,0,0,0.1);
+}
+#file #descripcion {
+	float: left;
+	width: 100%;
+}
+#file #descripcion .titulo, #file #detalle .titulo, #file #ubicacion .titulo{
+	width: 100%;
+	color: #1E1E1E;
+	float: left;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: "Ubuntu Light";
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	text-align: center;
+}
+#file #descripcion .texto, #file #ubicacion .direccion {
+	width: 100%;
+	float: left;
+	font-family: "Ubuntu Medium";
+	font-size: 18px;
+	line-height: 27px;
+	color: #666;
+}
+#file #detalle {
+	width: 75%;
+	float: left;
+	padding: 0 0 30px 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #989898;
+}
+#file #detalle .detalle_titulo, #file #detalle .detalle_dato{
+	width: 25%;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #989898;
+	font-family: "Ubuntu Medium";
+	height: 37px;
+	color: #5d5e63;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+#file #detalle .detalle_titulo {
+	padding: 10px;
+	position: relative;
+	background-color: #c1c1c1;
+}
+#file #detalle .detalle_titulo i{
+	margin-right: 10px;
+}
+#file #detalle .detalle_titulo span{
+	background-image: url(../imagenes/iconos_caracteristicas.png);
+	position: absolute;
+	left:0;
+	top: 2px;
+	height: 32px;
+	width: 32px;
+	opacity: 0.5;
+}
+#file #detalle .detalle_dato {
+	padding: 10px;
+	background-color: #dadada;
+}
+#file #file-contacto {
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+}
+#file #file-contacto .contacto-titulo{
+	width: 100%;
+	float: left;
+	padding: 0 0 10px 0;
+	font-family: "Ubuntu Light";
+	text-transform: uppercase;
+	color: #5d5e63;
+	font-size: 14px;
+}
+#file #file-contacto iframe{
+	width: 100%;
+	height: 253px;
+	float: left;
+}
+.fix_dato_garantia{
+	width: 75% !important; 
+	font-size: 13px !important;
+}
+#file #ubicacion {
+	width: 100%;
+	float: left;
+	padding: 20px 0 20px 0;
+}
+#file #ubicacion .titulo{
+	width: 100%;
+	padding: 20px 0 0 0;
+	margin: 0;
+}
+#file #ubicacion .direccion{
+	width: 100%;
+	float: left;
+	padding: 10px 0 20px 0;
+}
+#file #ubicacion .map{
+	width: 100%;
+	float: left;
+}
+#file #informacion, #file #resumen{
+	width: 100%;
+	float: left;
+}
+#file .separador{
+	width: 100%;
+	float: left;
+	border-bottom: solid 1px #dadade;
+	height: 1px;
+}
+#file #resumen .datos-ubicacion{
+	width: 33%;
+	float: left;
+	padding: 25px 0 0 0;
+	font-family: "Ubuntu Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #5d5e63;
+	border-right: solid 1px #dadade;
+	height: 107px;
+	margin: 10px 0 10px 0;
+}
+#file #resumen .datos-ubicacion i{
+	font-size: 21px;
+}
+#file #resumen .datos-ubicacion span{
+	font-family: "Ubuntu Light";
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 24px;
+}
+#file #resumen .datos-inmobiliaria{
+	width: 33%;
+	float: left;
+	padding: 25px 0 0 0;
+	font-family: "Ubuntu Light";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #5d5e63;
+	border-right: solid 1px #dadade;
+	height: 107px;
+	margin: 10px 0 10px 0;
+}
+#file #resumen .datos-inmobiliaria-text{
+	width: 100%;
+	float: left;
+	padding: 25px 0 0 0;
+	font-family: "Ubuntu Light";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #5d5e63;
+	text-align: center;
+}
+#file #resumen .datos-inmobiliaria-logo{
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #4a4b4f;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+#file #resumen .datos-inmobiliaria-logo{
+	cursor: pointer;
+}
+#file #resumen .datos-inmobiliaria-text{
+	padding: 0 0 10px 0;
+}
+#file #resumen .datos-inmobiliaria-logo img{
+	width: auto;
+	height: auto;
+	max-width: 120px;
+	max-height: 60px;
+	float: none;
+	display: inline-block;
+}
+#file #resumen .datos-telefono{
+	width: 33%;
+	float: left;
+	padding: 25px 0 0 0;
+	font-family: "Ubuntu Light";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #5d5e63;
+	text-align: center;
+	height: 107px;
+	margin: 10px 0 10px 0;
+}
+#file #resumen .datos-telefono span{
+	width: 100%;
+	float: left;
+	font-family: "Ubuntu Bold";
+	font-size: 36px;
+	color: #5d5e63;
+	text-align: center;
+}
+#file #informacion .ubicacion{
+	width: 100%;
+	float: left;
+	padding: 25px 0 0 0;
+	font-family: "Ubuntu Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #5d5e63;
+}
+#file #informacion .titulos{
+	width: 100%;
+	float: left;
+	font-family: "Ubuntu Light";
+	font-size: 24px;
+	padding: 30px 0;
+	text-transform: uppercase;
+	color: #5d5e63;
+}
+#file #informacion .wrap{
+	width: 100%;
+	float: left;
+}
+#file #informacion .detalle_titulo, #file #informacion .detalle_dato{
+	width: 25%;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdbdbd;
+	font-family: "Ubuntu Light";
+	height: 37px;
+	color: #5d5e63;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+#file #informacion .detalle_titulo {
+	padding: 10px;
+	position: relative;
+	background-color: #f0f0f0;
+}
+#file #informacion .detalle_titulo i{
+	margin-right: 10px;
+}
+#file #informacion .detalle_dato {
+	padding: 10px;
+	font-family: "Ubuntu Medium";
+}
+
+#file #informacion .wrap.fix{
+	width: 75%;
+	float: left;
+}
+#file #informacion .contacto{
+	width: 25%;
+	float: left;
+	padding-left: 20px;
+}
+#file #informacion .preguntar a {
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	float: right;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	transition: background-color .3s ease-out;
+	padding-left: 0;
+	margin-bottom: 10px;
+	position: relative;
+	background-color: #f40606;
+	text-transform: uppercase;
+	font-family: "Ubuntu Light";
+	cursor: pointer;
+}
+#file #informacion .preguntar a i{
+	position:absolute;
+	left: 30px;
+	top: 15px;
+}
+#file #informacion .preguntar a:hover {
+	background-color: #f40606;
+}
+#file .social {
+	float: left;
+	width: 100%;
+}
+#file .social a {
+	float: left;
+	width: 31px;
+	height: 31px;
+	border-radius: 3px;
+	margin-right: 20px;
+	transition: opacity .3s ease-out;
+	padding-top: 7px
+}
+#file .social a i{
+	width: 32px;
+	height: 32px;
+	color: #FFF;
+	font-size: 16px;
+}
+#file .social a:hover {
+	opacity: 0.8;
+}
+#titulo_file{
+	width: 100%;
+	float: left;
+	font-family: "Ubuntu Light";
+	font-size: 24px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #5d5e63;
+}
+.fix_results{
+	background-color: #D7D7D7;
+}
+.mas_resultados{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+	text-align: center;
+}
+.mas_resultados a{
+	background-color: var(--color3);
+	color: #FFF;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
+.mas_resultados a:hover{
+	background-color: var(--color_orange);
+}

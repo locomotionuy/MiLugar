@@ -1,0 +1,105 @@
+@media only screen and (max-width : 1100px) {
+a.back i{
+	font-size: 18px ;
+}
+#results{
+	padding: 10px;
+}
+#results .list{
+	padding: 0;
+	background-color: #FFF;
+}
+#results .list-titulo{
+	padding: 0px;
+	font-size: 14px;
+	line-height: 18px;
+	width: 58%;
+	height: 70px;
+	margin: 2% 2% 0 0;
+}
+#results .thumbnail{
+	float: left;
+	width: 36%;
+	height: 70px;
+	background-color: #CCC;
+	background-size: auto 100%;
+	margin: 2% 2% 0 2%;
+}
+#results .new, #results .registros{
+	float: left;
+	width: 50%;
+	padding: 10px 0;
+	margin-bottom: 0;
+}
+#results .registros{
+	text-align: right;
+}
+#results .buscar{
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+}
+#results .buscar input[type="text"]{
+	float: right;
+	width: 70%;
+}
+#results .buscar input[type="submit"]{
+	float: right;
+	width: 30%;
+}
+#results .buscar form{
+	width: 100%;
+}
+#results .registros.left{
+	text-align:left;
+	padding-left: 10px;
+}
+#results .list-datos{
+	width: 50%;
+	margin: 5px 0 0 0;
+}
+#results .list-editar, #results .list-messages, #results .list-messages-leidos, #results .list-preview{
+	float: left;
+	width: 30%;
+	height: 35px;
+	border-radius: 0;
+	margin: 2% 2% 2% 1%;
+	display: block;
+}
+#results .list-editar{
+	background-color: #D5D5D5;
+	color: #093;
+}
+#results .list-borrar{
+	background-color: #D5D5D5;
+	color:#D23333;
+	float: left;
+	width: 31%;
+	height: 35px;
+	border-radius: 0;
+	margin: 2% 1% 2% 1%;
+}
+#results .list-preview{
+	margin: 2% 1% 2% 2%;
+	padding: 7px 0 0 0;
+	color: #06C;
+}
+#results .list-preview-desktop{
+	display: none;
+}
+#results .list-borrar i, #results .list-editar i, #results .list-messages i, #results .list-messages-leidos i{
+	margin-top: 9px;
+	font-size: 16px;
+}
+#results .list-messages{
+	background-color: #096;
+	color: #FFF
+}
+#results .list-messages-leidos{
+	background-color: #D5D5D5;
+	color: #000
+}
+#results .pagination {
+	padding: 20px 10px 20px 20px;
+}
+}

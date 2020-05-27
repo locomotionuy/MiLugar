@@ -1,0 +1,8 @@
+@media only screen and (max-width : 767px) {
+#results .ms-choice {
+	width: 100%;
+}
+.ms-drop ul li input[type="radio"], .ms-drop ul li input[type="checkbox"], .ms-drop ul li.ms-select-all input[type="checkbox"]{
+	top: 6px;
+}
+}

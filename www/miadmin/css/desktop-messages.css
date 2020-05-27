@@ -1,0 +1,213 @@
+.titulo-secciones li span{
+	position: absolute;
+	right: 0;
+	color: #666;
+	padding: 3px 10px 3px 10px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	background-color: #EAEAEA;
+	font-size: 10px;
+	font-family: "OpenSans Regular";
+}
+#messages {
+	float: left;
+	width: 100%;
+}
+#messages .list-preview{
+	padding: 3px 10px 3px 10px;
+	background-color: #093;
+	color: #FFF;
+	border-radius: 3px;
+	font-size: 12px;
+	display: inline-block;
+	margin: 10px 0 10px 0;
+}
+#messages .emisor, #messages .remitente{
+	float: left;
+	width: 100%;
+	background-color: #20AC5B;
+	padding: 7px 10px 7px 10px;
+	color: #FFF;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+#messages.tickets .emisor{
+	background-color: #1e1e1e;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+}
+#messages.tickets .emisor img{
+	height: 22px;
+}
+#messages .emisor:first-child, #messages .remitente:first-child{
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#messages .emisor:hover, #messages .remitente:hover{
+    -webkit-filter: brightness(110%); /* Safari */
+    filter: brightness(110%);
+}
+#messages form{
+	float: left;
+	width: 100%;
+	display: none;
+	padding: 0  0 0 0;
+	margin: 0 0 -45px 0;
+}
+#messages form.mailto{
+	float: none;
+	width: auto;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+#messages form.mailto button{
+	float: right;
+	width: 40px;
+	height: 40px;
+	background-color: #09C;
+	border: solid 1px #09C;
+	text-align:center;
+	border-radius: 20px;
+	padding: 0;
+	color: #FFF;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+#messages textarea{
+	float: left;
+	width: 100%;
+	height: 70px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 5px;
+	font-family: "OpenSans Regular";
+	padding: 10px;
+}
+#messages input[type=submit], #messages input[type=button]{
+	float: right;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	border: 1px solid #0085c4;
+	background-color: #3398dc;
+	color: #fff;
+	margin: 0 0 10px 10px;
+	cursor: pointer;
+}
+#messages input[type=button]{
+	background-color: #ff5455;
+	border: 1px solid #C33;
+}
+#messages .emisor .date, #messages .remitente .date{
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	color: #fff;
+	font-size: 14px;
+}
+#messages .remitente{
+	background-color: #06C;
+	border-radius: 0;
+}
+#messages form .remitente{
+	overflow: visible;
+}
+#messages .message span{
+	background-color: #09C;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	bottom: -5px;
+	right: 20px;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0);
+    transform: rotate(45deg);
+	display: none;
+}
+#messages .message{
+	float: left;
+	width: 100%;
+	background-color: #FFF;
+	padding: 25px 20px 30px 20px;
+	position: relative;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#messages .wrap{
+	float: left;
+	width: 100%;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
+	margin-bottom: 30px;
+	background-color: #FFF
+}
+#messages .buttons{
+	position: absolute;
+	right: 0;
+	bottom: -20px;
+	width: 100px;
+	height: 40px;
+}
+#messages .wrap.leido.respondido .emisor{
+	background-color: #7D7D7D;
+}
+#messages .wrap.leido .message{
+	color: #626262;
+	margin-bottom: 0;
+	display: none;
+}
+#messages .wrap.leido .message:last-of-type{
+	display: block;
+}
+#messages .wrap.leido.respondido .buttons {
+	display: none;	
+}
+#messages .emisor.leido {
+	cursor: pointer;
+}
+#messages .emisor.leido:hover {
+    -webkit-filter: brightness(110%); /* Safari */
+    filter: brightness(110%);
+}
+#messages .reply, #messages .borrar{
+	float: right;
+	width: 40px;
+	height: 40px;
+	background-color: #09C;
+	text-align:center;
+	border-radius: 20px;
+	padding: 12px 0 0 0;
+	color: #FFF;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+#messages .borrar{
+	background-color: #ff5455;
+	font-size: 19px;
+	padding: 11px 0 0 0;
+}
+#messages .reply:hover, #messages .borrar:hover{
+    -webkit-filter: brightness(120%); /* Safari */
+    filter: brightness(120%);
+}
